@@ -7,8 +7,9 @@ import css from '../../assets/skills-icon/css.png'
 import js from '../../assets/skills-icon/js.png'
 import react from '../../assets/skills-icon/react.png'
 import python from '../../assets/skills-icon/python.png';
-import Next from "../../assets/skills-icon/next-js.svg"
-import Tailwind from "../../assets/skills-icon/tailwind-css.svg"
+import Next from "../../assets/skills-icon/next-js.svg";
+import Tailwind from "../../assets/skills-icon/tailwind-css.svg";
+import typescript from "../../assets/skills-icon/typescript-icon.svg";
 
 import "./Skills.css";
 
@@ -23,14 +24,14 @@ const Skills = () => {
                     <div className="skill-img">
                         <img src={html} alt="" />
                     </div>
-                    <div className="skill-text">Html</div>
+                    <div className="skill-text">HTML</div>
                 </div>
 
 				<div className="skill">
                     <div className="skill-img">
                         <img src={css} alt="" />
                     </div>
-                    <div className="skill-text">css</div>
+                    <div className="skill-text">CSS</div>
                 </div>
                 
 				<div className="skill">
@@ -44,14 +45,21 @@ const Skills = () => {
                     <div className="skill-img">
                         <img src={js} alt="" />
                     </div>
-                    <div className="skill-text">javascript</div>
+                    <div className="skill-text">Javascript</div>
+                </div>
+
+				<div className="skill">
+                    <div className="skill-img">
+                        <img src={typescript} alt="" />
+                    </div>
+                    <div className="skill-text">TypeScript</div>
                 </div>
 
 				<div className="skill">
                     <div className="skill-img">
                         <img src={react} alt="" />
                     </div>
-                    <div className="skill-text">react</div>
+                    <div className="skill-text">React</div>
                 </div>
                 
 				<div className="skill">

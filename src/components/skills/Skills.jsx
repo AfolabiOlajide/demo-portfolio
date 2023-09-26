@@ -6,7 +6,9 @@ import html from '../../assets/skills-icon/html.png'
 import css from '../../assets/skills-icon/css.png'
 import js from '../../assets/skills-icon/js.png'
 import react from '../../assets/skills-icon/react.png'
-import python from '../../assets/skills-icon/python.png'
+import python from '../../assets/skills-icon/python.png';
+import Next from "../../assets/skills-icon/next-js.svg"
+import Tailwind from "../../assets/skills-icon/tailwind-css.svg"
 
 import "./Skills.css";
 
@@ -30,6 +32,13 @@ const Skills = () => {
                     </div>
                     <div className="skill-text">css</div>
                 </div>
+                
+				<div className="skill">
+                    <div className="skill-img">
+                        <img src={Tailwind} alt="" />
+                    </div>
+                    <div className="skill-text">Tailwind</div>
+                </div>
 
 				<div className="skill">
                     <div className="skill-img">
@@ -43,6 +52,13 @@ const Skills = () => {
                         <img src={react} alt="" />
                     </div>
                     <div className="skill-text">react</div>
+                </div>
+                
+				<div className="skill">
+                    <div className="skill-img">
+                        <img src={Next} alt="" />
+                    </div>
+                    <div className="skill-text">Next.js</div>
                 </div>
 
 				<div className="skill">

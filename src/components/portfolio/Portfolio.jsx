@@ -7,6 +7,7 @@ import img2 from '../../assets/projects-img/dashboard-demo-shot.png'
 import img3 from '../../assets/projects-img/sunny-cosmetics-shot.png'
 import img4 from '../../assets/projects-img/color-library-shot.png'
 import img5 from '../../assets/projects-img/redux-fakestore-snapshot.png'
+import Darate from "../../assets/projects-img/darate_home.png"
 
 const Portfolio = () => {
   return (
@@ -35,6 +36,17 @@ const Portfolio = () => {
           <div className="portfolio__item-cta">
             <a href="https://github.com/AfolabiOlajide/weatherInfo-v2" className='btn' target='_blank'>GitHub</a>
             <a href="https://weatherinfo-v2.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={Darate} alt="" />
+          </div>
+          <h3>Darate</h3>
+          <p>A Web3 crowdfunding application, built with Next.js and Tailwind css.</p>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/AfolabiOlajide/Darate-frontend" className='btn' target='_blank'>GitHub</a>
+            <a href="https://darate.vercel.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         <article className="portfolio__item">

@@ -8,6 +8,7 @@ import img3 from "../../assets/projects-img/sunny-cosmetics-shot.png";
 import img4 from "../../assets/projects-img/color-library-shot.png";
 import img5 from "../../assets/projects-img/redux-fakestore-snapshot.png";
 import Darate from "../../assets/projects-img/darate_home.png";
+import Youdentify from "../../assets/projects-img/youdentify_home.png";
 
 const Portfolio = () => {
     return (
@@ -36,6 +37,33 @@ const Portfolio = () => {
                         </a>
                         <a
                             href="https://darate.vercel.app/"
+                            className="btn btn-primary"
+                            target="_blank"
+                        >
+                            Live Demo
+                        </a>
+                    </div>
+                </article>
+                {/* Youdentify */}
+                <article className="portfolio__item">
+                    <div className="portfolio__item-image">
+                        <img src={Youdentify} alt="" />
+                    </div>
+                    <h3>YoudentiFi</h3>
+                    <p>
+                        A Web3 Digital Identity Platform, built with Next.js,
+                        Tailwind css, Solidity and thirdweb.
+                    </p>
+                    <div className="portfolio__item-cta">
+                        <a
+                            href="https://github.com/AfolabiOlajide/youdentify"
+                            className="btn"
+                            target="_blank"
+                        >
+                            GitHub
+                        </a>
+                        <a
+                            href="https://youdentify.vercel.app/"
                             className="btn btn-primary"
                             target="_blank"
                         >

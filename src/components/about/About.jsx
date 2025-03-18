@@ -4,7 +4,7 @@ import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 import "./About.css";
-import meImg from "../../assets/about-img.jpeg";
+import meImg from "../../assets/my-image-2.jpg";
 
 const About = () => {
     return (
@@ -24,7 +24,7 @@ const About = () => {
                         <article className="about__card">
                             <FaAward className="about__icon" />
                             <h5>Experience</h5>
-                            <small>3+ Years Experience</small>
+                            <small>4+ Years Experience</small>
                         </article>
 
                         {/* <article className="about__card"> 
@@ -41,13 +41,14 @@ const About = () => {
                     </div>
 
                     <p>
-                        I am a passionate, skilled and dedicated front-end
-                        engineer, apart from coding I also love to play video
+                        I am a passionate, skilled and dedicated software
+                        engineer with a strong interest in front-end
+                        development, apart from coding I also love to play video
                         games, read books and listen to music. I love learning
                         new things and I am always looking for new ways to
-                        improve my skills. My aim is to be one of the best
-                        front-end engineers and empower applications and
-                        businesses to standout among their counterparts.
+                        improve my skills. My goal is to innovate and deliver
+                        high-quality software solutions that meet the needs of
+                        my clients.
                         <br />I am also known as "Cipherr" pronounced as cypher.
                     </p>
 

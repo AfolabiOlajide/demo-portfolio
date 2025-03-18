@@ -29,7 +29,7 @@ const Portfolio = () => {
                     </p>
                     <div className="portfolio__item-cta">
                         <a
-                            href="https://github.com/AfolabiOlajide/Darate-frontend"
+                            href="https://github.com/AfolabiOlajide/darate"
                             className="btn"
                             target="_blank"
                         >

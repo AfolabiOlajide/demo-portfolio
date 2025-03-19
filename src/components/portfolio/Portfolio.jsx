@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank, jsx-a11y/anchor-is-valid, jsx-a11y/img-redundant-alt, no-unused-vars */
 import React from "react";
+import { FiExternalLink } from "react-icons/fi";
 
 import "./Portfolio.css";
 import img1 from "../../assets/projects-img/weatherinfo-shot.png";
@@ -35,6 +36,7 @@ const Portfolio = () => {
                             target="_blank"
                         >
                             Explore
+                            <FiExternalLink />
                         </a>
                     </div>
                 </article>
@@ -62,6 +64,7 @@ const Portfolio = () => {
                             target="_blank"
                         >
                             Explore
+                            <FiExternalLink />
                         </a>
                     </div>
                 </article>
@@ -89,6 +92,7 @@ const Portfolio = () => {
                             target="_blank"
                         >
                             Explore
+                            <FiExternalLink />
                         </a>
                     </div>
                 </article>
@@ -116,6 +120,7 @@ const Portfolio = () => {
                             target="_blank"
                         >
                             Explore
+                            <FiExternalLink />
                         </a>
                     </div>
                 </article>
@@ -144,6 +149,7 @@ const Portfolio = () => {
                             target="_blank"
                         >
                             Explore
+                            <FiExternalLink />
                         </a>
                     </div>
                 </article>
@@ -172,6 +178,7 @@ const Portfolio = () => {
                             target="_blank"
                         >
                             Explore
+                            <FiExternalLink />
                         </a>
                     </div>
                 </article>
@@ -228,6 +235,7 @@ const Portfolio = () => {
                             target="_blank"
                         >
                             Explore
+                            <FiExternalLink />
                         </a>
                     </div>
                 </article>

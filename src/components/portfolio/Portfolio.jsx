@@ -34,7 +34,7 @@ const Portfolio = () => {
                             className="btn btn-primary"
                             target="_blank"
                         >
-                            Visit
+                            Explore
                         </a>
                     </div>
                 </article>
@@ -61,7 +61,7 @@ const Portfolio = () => {
                             className="btn btn-primary"
                             target="_blank"
                         >
-                            Live Demo
+                            Explore
                         </a>
                     </div>
                 </article>
@@ -88,7 +88,7 @@ const Portfolio = () => {
                             className="btn btn-primary"
                             target="_blank"
                         >
-                            Live Demo
+                            Explore
                         </a>
                     </div>
                 </article>
@@ -115,7 +115,7 @@ const Portfolio = () => {
                             className="btn btn-primary"
                             target="_blank"
                         >
-                            Live Demo
+                            Explore
                         </a>
                     </div>
                 </article>
@@ -143,7 +143,7 @@ const Portfolio = () => {
                             className="btn btn-primary"
                             target="_blank"
                         >
-                            Live Demo
+                            Explore
                         </a>
                     </div>
                 </article>
@@ -171,7 +171,7 @@ const Portfolio = () => {
                             className="btn btn-primary"
                             target="_blank"
                         >
-                            Live Demo
+                            Explore
                         </a>
                     </div>
                 </article>
@@ -200,7 +200,7 @@ const Portfolio = () => {
                             target="_blank"
                             rel="noreferrer noopener"
                         >
-                            Live Demo
+                            Explore
                         </a>
                     </div>
                 </article>
@@ -227,7 +227,7 @@ const Portfolio = () => {
                             className="btn btn-primary"
                             target="_blank"
                         >
-                            Live Demo
+                            Explore
                         </a>
                     </div>
                 </article>

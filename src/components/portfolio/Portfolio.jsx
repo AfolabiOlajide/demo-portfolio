@@ -9,6 +9,7 @@ import img4 from "../../assets/projects-img/color-library-shot.png";
 import img5 from "../../assets/projects-img/redux-fakestore-snapshot.png";
 import Darate from "../../assets/projects-img/darate_home.png";
 import Youdentify from "../../assets/projects-img/youdentify_home.png";
+import SofGo from "../../assets/projects-img/sofgo_home.png";
 
 const Portfolio = () => {
     return (
@@ -17,6 +18,26 @@ const Portfolio = () => {
             <h2>Portfolio</h2>
 
             <div className="container portfolio__container">
+                {/* Sofgo */}
+                <article className="portfolio__item">
+                    <div className="portfolio__item-image">
+                        <img src={SofGo} alt="" />
+                    </div>
+                    <h3>SofGo</h3>
+                    <p>
+                        Web Application built for a software development
+                        company.
+                    </p>
+                    <div className="portfolio__item-cta">
+                        <a
+                            href="https://sofgo.io/"
+                            className="btn btn-primary"
+                            target="_blank"
+                        >
+                            Visit
+                        </a>
+                    </div>
+                </article>
                 {/* Darate */}
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">

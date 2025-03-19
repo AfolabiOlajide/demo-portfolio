@@ -45,8 +45,8 @@ const Portfolio = () => {
                     </div>
                     <h3>Darate</h3>
                     <p>
-                        A Web3 crowdfunding application, built with Next.js and
-                        Tailwind css.
+                        A Web3 crowdfunding application, built with Next.js,
+                        Typescript, Solidity and Tailwind css.
                     </p>
                     <div className="portfolio__item-cta">
                         <a

@@ -73,7 +73,7 @@ const Portfolio = () => {
                     <h3>YoudentiFi</h3>
                     <p>
                         A Web3 Digital Identity Platform, built with Next.js,
-                        Tailwind css, Solidity and thirdweb.
+                        Typescript, Tailwind css, Solidity and thirdweb.
                     </p>
                     <div className="portfolio__item-cta">
                         <a

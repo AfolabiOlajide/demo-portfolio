@@ -11,6 +11,7 @@ import img5 from "../../assets/projects-img/redux-fakestore-snapshot.png";
 import Darate from "../../assets/projects-img/darate_home.png";
 import Youdentify from "../../assets/projects-img/youdentify_home.png";
 import SofGo from "../../assets/projects-img/sofgo_home.png";
+import Decoder from "../../assets/projects-img/decoder_home.png";
 
 const Portfolio = () => {
     return (
@@ -153,7 +154,34 @@ const Portfolio = () => {
                         </a>
                     </div>
                 </article>
-
+                {/* multi-decoder */}
+                <article className="portfolio__item">
+                    <div className="portfolio__item-image">
+                        <img src={Decoder} alt="" />
+                    </div>
+                    <h3>Multi-Decoder</h3>
+                    <p>
+                        An application that allows you to encode and decode text
+                        using different encryption algorithms (open source).
+                    </p>
+                    <div className="portfolio__item-cta">
+                        <a
+                            href="https://github.com/AfolabiOlajide/multi-decoder"
+                            className="btn"
+                            target="_blank"
+                        >
+                            GitHub
+                        </a>
+                        <a
+                            href="https://multi-decoder.vercel.app/"
+                            className="btn btn-primary"
+                            target="_blank"
+                        >
+                            Explore
+                            <FiExternalLink />
+                        </a>
+                    </div>
+                </article>
                 {/* dashboard design */}
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">

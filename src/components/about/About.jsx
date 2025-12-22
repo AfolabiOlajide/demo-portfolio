@@ -7,6 +7,8 @@ import "./About.css";
 import meImg from "../../assets/my-image-2.jpg";
 
 const About = () => {
+    const year = new Date().getFullYear();
+    const yearExperienceStarted = 2021;
     return (
         <section id="about">
             <h5>Get to know</h5>
@@ -24,7 +26,9 @@ const About = () => {
                         <article className="about__card">
                             <FaAward className="about__icon" />
                             <h5>Experience</h5>
-                            <small>4+ Years Experience</small>
+                            <small>
+                                {year - yearExperienceStarted}+ Years Experience
+                            </small>
                         </article>
 
                         {/* <article className="about__card"> 

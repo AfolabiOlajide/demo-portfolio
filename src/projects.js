@@ -8,6 +8,7 @@ import Darate from "./assets/projects-img/darate_home.png";
 import Youdentify from "./assets/projects-img/youdentify_home.png";
 import SofGo from "./assets/projects-img/sofgo_home.png";
 import Decoder from "./assets/projects-img/decoder_home.png";
+import Pyrgis from "./assets/projects-img/pyrgis.png";
 
 export const PROJECTS = [
     {
@@ -18,6 +19,15 @@ export const PROJECTS = [
             "Web Application built for a software development company.",
         githubLink: "",
         demoLink: "https://sofgo.io/",
+    },
+    {
+        id: uuidv4(),
+        imgSrc: Pyrgis,
+        title: "Pyrgis",
+        description:
+            "A web3 AI powered application to forge and mint characters as ownable IP assets on the story blockchain.",
+        githubLink: "https://github.com/AfolabiOlajide/pyrgis",
+        demoLink: "https://pyrgis.vercel.app/",
     },
     {
         id: uuidv4(),

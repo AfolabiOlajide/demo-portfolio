@@ -18,7 +18,8 @@ export const PROJECTS = [
         description:
             "Web Application built for a software development company.",
         githubLink: "",
-        demoLink: "https://sofgo.io/",
+        // demoLink: "https://sofgo.io/",
+        demoLink: "https://sofgo-v2.vercel.app/",
     },
     {
         id: uuidv4(),

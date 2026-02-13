@@ -1,14 +1,15 @@
 import { v4 as uuidv4 } from "uuid";
-import img1 from "./assets/projects-img/weatherinfo-shot.png";
-import img2 from "./assets/projects-img/dashboard-demo-shot.png";
-import img3 from "./assets/projects-img/sunny-cosmetics-shot.png";
 import img4 from "./assets/projects-img/color-library-shot.png";
-import img5 from "./assets/projects-img/redux-fakestore-snapshot.png";
 import Darate from "./assets/projects-img/darate_home.png";
-import Youdentify from "./assets/projects-img/youdentify_home.png";
-import SofGo from "./assets/projects-img/sofgo_home.png";
+import img2 from "./assets/projects-img/dashboard-demo-shot.png";
 import Decoder from "./assets/projects-img/decoder_home.png";
+import Dnero from "./assets/projects-img/dnero.png";
 import Pyrgis from "./assets/projects-img/pyrgis.png";
+import img5 from "./assets/projects-img/redux-fakestore-snapshot.png";
+import SofGo from "./assets/projects-img/sofgo_home.png";
+import img3 from "./assets/projects-img/sunny-cosmetics-shot.png";
+import img1 from "./assets/projects-img/weatherinfo-shot.png";
+import Youdentify from "./assets/projects-img/youdentify_home.png";
 
 export const PROJECTS = [
     {
@@ -20,6 +21,15 @@ export const PROJECTS = [
         githubLink: "",
         // demoLink: "https://sofgo.io/",
         demoLink: "https://sofgo-v2.vercel.app/",
+    },
+    {
+        id: uuidv4(),
+        imgSrc: Dnero,
+        title: "Dnero",
+        description:
+            "AI-powered personal finance application that helps users understand their spending, evaluate how each transaction affects their financial goals, and receive personalized financial advice in real time.",
+        githubLink: "https://github.com/AfolabiOlajide/dnero",
+        demoLink: "https://dnero.vercel.app/",
     },
     {
         id: uuidv4(),

@@ -57,6 +57,39 @@ header {
     object-fit: cover;
 }
 
+.scroll {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10rem;
+}
+
+.scroll__down {
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 0.9rem;
+    align-items: center;
+    color: var(--color-primary);
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
 /* MEDIA QUERY (MEDIUM DEVICES) */
 
 @media screen and (max-width: 1024px) {

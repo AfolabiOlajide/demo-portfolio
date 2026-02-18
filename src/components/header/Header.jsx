@@ -1,10 +1,10 @@
 /* eslint-disable react/jsx-no-target-blank, jsx-a11y/anchor-is-valid, jsx-a11y/img-redundant-alt, no-unused-vars */
-import React from "react";
 
-import "./Header.css";
-import CTA from "./CTA";
-import HeaderSocials from "./HeaderSocials";
+import { IoMdArrowDown } from "react-icons/io";
 import me from "../../assets/avatar.jpg";
+import CTA from "./CTA";
+import "./Header.css";
+import HeaderSocials from "./HeaderSocials";
 // import me from "../../assets/avtr2.jpg";
 // import me from '../../assets/main2.png';
 
@@ -21,6 +21,14 @@ const Header = () => {
                     <div className="me">
                         <img src={me} alt="my image" className="me-img" />
                     </div>
+                </div>
+                <div className="scroll">
+                    <a href="#about" className="scroll__down">
+                        Scroll Down
+                        <span>
+                            <IoMdArrowDown />
+                        </span>
+                    </a>
                 </div>
             </div>
         </header>

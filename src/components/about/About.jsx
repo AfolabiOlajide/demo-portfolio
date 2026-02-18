@@ -1,10 +1,9 @@
-import React from "react";
 import { FaAward } from "react-icons/fa";
 // import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from "react-icons/vsc";
 
+import meImg from "../../assets/about-img.jpg";
 import "./About.css";
-import meImg from "../../assets/my-image-2.jpg";
 
 const About = () => {
     const year = new Date().getFullYear();
